@@ -22,7 +22,7 @@ const Timeline = () => {
 
       {/* Tiles */}
       <div className="mt-4">
-        {/* Desktop: Grid | Mobile: Horizontal scroll */}
+        {/* Desktop grid */}
         <div className="hidden sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {timelineData[selectedYear]?.map((initiative, index) => (
             <TimelineTile
@@ -33,6 +33,7 @@ const Timeline = () => {
           ))}
         </div>
 
+        {/* Mobile scroll */}
         <div className="sm:hidden flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4">
           {timelineData[selectedYear]?.map((initiative, index) => (
             <div key={index} className="snap-center shrink-0 w-[85%]">
