@@ -6,8 +6,7 @@ const YearSelector = ({ years, selectedYear, setSelectedYear }) => (
       <button
         key={year}
         onClick={() => setSelectedYear(year)}
-        className={`px-4 py-2 rounded-full border ${selectedYear === year ? "bg-blue-600 text-white" : "bg-white text-gray-700"}`}
- : "bg-white text-gray-700"}\`}
+       className={`px-4 py-2 rounded-full border ${selectedYear === year ? "bg-blue-600 text-white" : "bg-white text-gray-700"}`}
       >
         {year}
       </button>
