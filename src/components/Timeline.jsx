@@ -13,13 +13,38 @@ const Timeline = () => {
   const closeModal = () => setSelectedTile(null);
 
   return (
-    <div className="p-4 max-w-5xl mx-auto">
-      <YearSelector years={years} selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-        {timelineData[selectedYear]?.map((initiative, index) => (
-          <TimelineTile key={index} data={initiative} onClick={() => handleTileClick(initiative)} />
-        ))}
+    <div className="p-4 max-w-6xl mx-auto">
+      <YearSelector
+        years={years}
+        selectedYear={selectedYear}
+        setSelectedYear={setSelectedYear}
+      />
+
+      {/* Tiles */}
+      <div className="mt-4">
+        {/* Desktop: Grid | Mobile: Horizontal scroll */}
+        <div className="hidden sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {timelineData[selectedYear]?.map((initiative, index) => (
+            <TimelineTile
+              key={index}
+              data={initiative}
+              onClick={() => handleTileClick(initiative)}
+            />
+          ))}
+        </div>
+
+        <div className="sm:hidden flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4">
+          {timelineData[selectedYear]?.map((initiative, index) => (
+            <div key={index} className="snap-center shrink-0 w-[85%]">
+              <TimelineTile
+                data={initiative}
+                onClick={() => handleTileClick(initiative)}
+              />
+            </div>
+          ))}
+        </div>
       </div>
+
       {selectedTile && <Modal data={selectedTile} onClose={closeModal} />}
     </div>
   );
