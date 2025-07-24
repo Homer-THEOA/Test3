@@ -3,14 +3,12 @@ import React, { useEffect, useRef } from "react";
 const Modal = ({ data, onClose }) => {
   const modalRef = useRef();
 
-  // Close when clicking outside modal box
   const handleClickOutside = (e) => {
     if (modalRef.current && !modalRef.current.contains(e.target)) {
       onClose();
     }
   };
 
-  // Close on ESC key press
   const handleKeyDown = (e) => {
     if (e.key === "Escape") {
       onClose();
