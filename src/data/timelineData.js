@@ -34,7 +34,7 @@ export const timelineData = {
       longDesc: "In 2012, CARE FOUNDATION launched a powerful and heartfelt initiative – The National Flag Pride Rally, conceptualized by Chairman Mr. Aniket Ghanshyam Bhankal. Born out of a deep sense of patriotism and responsibility, this unique movement aimed to uphold the dignity of our beloved Tiranga throughout the year, especially on days of national significance like 26th January and 15th August."
     },
     {
-      title: "Health Awareness Program",
+      title: "Socio Cultural Program for Youth",
       image: "/images/placeholder.jpg",
       shortDesc: "Hosted sessions on basic health education.",
       longDesc: "Hosted sessions on basic health education. This initiative was a significant step in our mission to support underprivileged communities with scalable and impactful programs."
@@ -54,13 +54,13 @@ export const timelineData = {
   ],
   "2013": [
     {
-      title: "Mobile Health Van Launched",
+      title: "National Flag Pride Rally",
       image: "/images/placeholder.jpg",
-      shortDesc: "Deployed mobile health units.",
+      shortDesc: "Radio City 91.1 FM",
       longDesc: "Deployed mobile health units. This initiative was a significant step in our mission to support underprivileged communities with scalable and impactful programs."
     },
     {
-      title: "Hygiene Kits for Children",
+      title: "Socio cultural program for youth motivation",
       image: "/images/placeholder.jpg",
       shortDesc: "Distributed hygiene kits.",
       longDesc: "Distributed hygiene kits. This initiative was a significant step in our mission to support underprivileged communities with scalable and impactful programs."
@@ -72,7 +72,7 @@ export const timelineData = {
       longDesc: "Provided solar lights to villages. This initiative was a significant step in our mission to support underprivileged communities with scalable and impactful programs."
     },
     {
-      title: "Eye Check-Up Camps",
+      title: "Socio cultural program for youth motivation",
       image: "/images/placeholder.jpg",
       shortDesc: "Organized free eye check-ups.",
       longDesc: "Organized free eye check-ups. This initiative was a significant step in our mission to support underprivileged communities with scalable and impactful programs."
