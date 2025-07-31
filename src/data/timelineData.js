@@ -1,10 +1,11 @@
 export const timelineData = {
   "2011": [
-    {
-      title: "Launch of Foundation",
+    { 
+      title: "Social Awareness",
       image: "/images/placeholder.jpg",
-      shortDesc: "The foundation was launched to serve the community.",
-      longDesc: "The foundation was launched to serve the community. This initiative was a significant step in our mission to support underprivileged communities with scalable and impactful programs."
+      shortDesc: "CARE FOUNDATION - A Journey of Hope from the Heart of Khar East",
+      longDesc: "Founded in 2011 in the slums of Khar East, Mumbai, CARE FOUNDATION began its journey as a youth-led initiative driven by purpose and passion. The young team started with small awareness drives and impactful programs during festivals and public functions, aiming to spread positivity and social consciousness in their community. Through these early efforts, they inspired change, empowered residents, and laid the foundation for a brighter, more hopeful future — one slum, one story, one smile at a time.
+"
     },
     {
       title: "First Medical Camp",
@@ -27,10 +28,10 @@ export const timelineData = {
   ],
   "2012": [
     {
-      title: "Women Empowerment Drive",
+      title: "National Flag Pride Rally",
       image: "/images/placeholder.jpg",
-      shortDesc: "Initiated programs to empower women.",
-      longDesc: "Initiated programs to empower women. This initiative was a significant step in our mission to support underprivileged communities with scalable and impactful programs."
+      shortDesc: "The National Flag Pride Rally - A Movement of Patriotism by CARE FOUNDATION.",
+      longDesc: "In 2012, CARE FOUNDATION launched a powerful and heartfelt initiative – The National Flag Pride Rally, conceptualized by Chairman Mr. Aniket Ghanshyam Bhankal. Born out of a deep sense of patriotism and responsibility, this unique movement aimed to uphold the dignity of our beloved Tiranga throughout the year, especially on days of national significance like 26th January and 15th August."
     },
     {
       title: "Health Awareness Program",
