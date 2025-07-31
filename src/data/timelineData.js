@@ -1,6 +1,6 @@
 export const timelineData = {
   "2011": [
-    { 
+    {
       title: "Social Awareness",
       image: "/images/placeholder.jpg",
       shortDesc: "CARE FOUNDATION - A Journey of Hope from the Heart of Khar East",
